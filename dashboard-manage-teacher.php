@@ -33,7 +33,7 @@
 			<div class="row">
 				<div class="container-fluid">
 					<ol class="breadcrumb">
-				  <li><a href="dashboard-home">หน้าหลัก</a></li>
+				  <li><a href="dashboard-home.php">หน้าหลัก</a></li>
 				  <li><a href="#">อนุมัติผลงาน</a></li>
 				  <li class="active">แสดงข้อมูลผลงาน</li>
 				</ol>

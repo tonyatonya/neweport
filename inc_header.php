@@ -21,9 +21,11 @@
 	<link  type="text/css" rel="stylesheet" href="css/bootstrap-theme.css"/>
 	<link  type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
 	<!-- end Bootstrap lib -->
+	<link type="text/css" rel="stylesheet" href="css/colorbox.css"/>
 	<link type="text/css" rel="stylesheet" href="css/layout.css" media="screen,projection"/>
 <!-- 	<link type="image/ico" rel="shortcut icon" href="images/favicon.ico"> -->
 	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.colorbox.js"></script>
 	<!-- js of Bootstrap -->
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/offcanvas.js"></script>

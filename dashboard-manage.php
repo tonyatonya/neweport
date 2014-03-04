@@ -33,7 +33,7 @@
 			<div class="row">
 				<div class="container-fluid">
 					<ol class="breadcrumb">
-				  <li><a href="dashboard-home">หน้าหลัก</a></li>
+				  <li><a href="dashboard-home.php">หน้าหลัก</a></li>
 				  <li class="active">ประวัติส่วนตัว</li>
 				</ol>
 					<nav class="navbar navbar-default navbar-static-top" role="navigation">

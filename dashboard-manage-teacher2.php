@@ -33,7 +33,7 @@
 			<div class="row">
 				<div class="container-fluid">
 				<ol class="breadcrumb">
-				  <li><a href="dashboard-home">หน้าหลัก</a></li>
+				  <li><a href="dashboard-home.php">หน้าหลัก</a></li>
 				  <li><a href="#">อนุมัติผลงาน</a></li>
 				  <li class="active">แสดงข้อมูลผลงาน</li>
 				</ol>
@@ -63,7 +63,7 @@
 					<h3>แกลลอรี</h3>
 					<?php for($i=0;$i<10;$i++){?>		
 					<div class="img-item col-xs-2">
-						<a href="http://placehold.it/160x140.jpg">
+						<a href="http://placehold.it/800x600.jpg">
 							<img src="http://placehold.it/160x140" class="img-thumbnail">
 						</a>
 					</div>
@@ -96,7 +96,11 @@
 		</div>
 	</div>
 </div>
-
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".img-item a").colorbox();
+	})
+</script>
 <?php require('inc_footer.php') ?>
 </body>
 </html>
