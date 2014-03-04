@@ -11,6 +11,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link type="text/css" rel="stylesheet" href="css/reset.css" media="screen,projection"/>
 	<link type="text/css" rel="stylesheet" href="css/dark-hive/jquery-ui-1.8.18.custom.css" media="screen,projection"/>
 	<!-- add Bootstrap lib -->
