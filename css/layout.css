@@ -3,16 +3,121 @@
 	margin: 0;
 	padding: 0;
 }
-body,html{
-	min-height: 100%;
-	width: 100%;
+html, body {
+	height: 100%;
 }
 body{
 	font-family: Helvetica, Arial, Verdana, sans-serif;
-	font-size: 100%;
+	font-size: small !important;
+	
 }
-.header{
+.wraper{
 	width: 100%;
-	height: 50px;
-	background-color: #000000;
+	height: auto !important;
+	min-height: 100%;
+	margin-bottom: -80px;
+	padding-bottom: 30px;
+	padding-top: 60px;
+}
+.wraper:after{
+	content: "";
+	clear: both;
+	display: block;
+	visibility: hidden;
+	height: 80px;
+}
+/******* font *******/
+p{
+	/* font-size: 1em !important; */
+}
+.footer{
+	height: 80px;
+	width: 100%;
+	background-color: black;
+	clear: both;
+	/* margin-top: -80px; */
+}
+.langsw{
+	background-color: #232323;
+	border: 1px solid #696969;
+	margin-left: 20px;
+}
+.maintitle{
+	
+	text-align: center;
+}
+.port-list-item{
+	background-color: #e3e3e3;
+	padding-bottom: 20px;
+}
+.itembox{
+	width: 100%;
+	height: auto;
+	/* border-radius: 8px; */
+	overflow: hidden;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: white;
+	border:1px solid #c4c4c4;
+	
+		/* Firefox */
+	    -moz-transition: all 0.1s ease-out;
+	    /* WebKit */
+	    -webkit-transition: all 0.1s ease-out;
+	    /* Opera */
+	    -o-transition: all 0.1s ease-out;
+	    /* Standard */
+	    transition: all 0.1s ease-out;
+
+}
+.itembox img{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: auto;
+}
+a:hover .itembox{
+	background-color: #c4c4c4;
+	 /* Firefox */
+	    -moz-transition: all 0.1s ease-in;
+	    /* WebKit */
+	    -webkit-transition: all 0.1s ease-in;
+	    /* Opera */
+	    -o-transition: all 0.1s ease-in;
+	    /* Standard */
+	    transition: all 0.1s ease-in;
+}
+a:hover{
+	text-decoration: none !important;
+}
+.port-profile li ,.port-stat li{
+	color: #646464;
+	list-style: none;
+	
+}
+.port-profile li span ,.port-stat li span{
+	font-weight: bold;
+}
+
+.option-menu ul li{
+	list-style: none;
+	float: left;
+}
+.btn-holder{
+	clear: both;
+	margin-top: 30px;
+}
+.display{
+	height:400px;
+	border:1px solid #c4c4c4;
+	margin-bottom: 30px;
+	overflow: auto;
+}
+.display-gallery{
+	border:1px solid #c4c4c4;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+.display-gallery .img-item{
+	margin-top: 10px;
 }
